@@ -884,7 +884,15 @@ git stash clear
 
 # 十.配置ssh 秘钥
 
+
 在公司一般是多人开发，所以要考虑下这个功能
+
+在终端查看Git用户配置信息：
+```
+git config --global -l
+```
+
+生成ssh key
 
 ```
 ssh-keygen -t rsa -C "邮箱" 
